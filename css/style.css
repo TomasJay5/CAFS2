@@ -1,0 +1,33 @@
+h1 {
+    border: 2px solid black;
+    margin: auto;  
+    padding: 200px;
+    text-align: center;
+  }
+
+  div.background {
+      background-color: brown;
+  }
+
+  .center {
+    margin: auto;
+    width: 8%;
+    border: 3px solid black;
+    padding: 50px;
+    margin-top: -110px;
+  }
+
+  .column.side {
+    width: 25%;
+  }
+
+  .column.middle {
+    width: 50%;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+  }
+  

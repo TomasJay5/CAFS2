@@ -7,13 +7,15 @@
     border: 1px solid blue;
     margin: 10px 10px 0px 0px;
     padding: 4px;
+    background-color: brown;
 }
 
-#menu-2 a:link, a:visited {
+#menu-2 a:link, a:visited, a:hover {
     text-decoration: none;
     color: blue;
 }
 
-#menu-2 a:hover {
+#menu-2 li:hover {
     font-weight: bold;
+    background: yellow;
 }

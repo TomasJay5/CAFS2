@@ -1,0 +1,21 @@
+#menu-3 ul {
+    list-style: none;
+}
+
+#menu-3 li {
+    width: 200px;
+    border: 1px solid blue;
+    margin: 10px 10px 0px 0px;
+    padding: 4px;
+    background-color: brown;
+}
+
+#menu-3 a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+#menu-3 li:hover {
+    font-weight: bold;
+    background: yellow;
+}

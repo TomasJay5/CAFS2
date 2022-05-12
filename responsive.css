@@ -1,0 +1,27 @@
+/* Teksto spalvos keitimas: */
+	
+/* iki 480px => red */
+	
+/* nuo 480px iki 800px => green */
+	
+/* nuo 800px => blue */
+
+@media only screen and (max-width: 480px) {
+    div {
+        background-color: red;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 800px) {
+    div {
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 800px) {
+    div {
+        background-color: blue;
+    }
+}
+div {
+    height: 300px;
+    width: 300px;
+}

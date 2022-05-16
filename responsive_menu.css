@@ -4,7 +4,7 @@
 }
 
 #responsive_menu li {
-    width: 60px;
+    width: 100%;
     border: 1px solid black;
     margin: 10px 10px 0px 0px;
     padding: 4px;

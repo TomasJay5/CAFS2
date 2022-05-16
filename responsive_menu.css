@@ -1,0 +1,29 @@
+#responsive_menu ul {
+    list-style: none;
+    color: blue;
+}
+
+#responsive_menu li {
+    width: 60px;
+    border: 1px solid black;
+    margin: 10px 10px 0px 0px;
+    padding: 4px;
+    display: inline;
+}
+
+#responsive_menu a:link, a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+#responsive_menu li:hover {
+    font-weight: bold;
+    background: yellow;
+}
+
+@media only screen and (max-device-width: 375px)  {
+    .flex {
+        display:flex;
+        flex-direction: column;
+    }
+} 

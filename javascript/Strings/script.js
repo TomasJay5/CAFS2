@@ -2,7 +2,7 @@ let = userInfoOutput = document.getElementById(main);
 
 
 
-const user = {
+let user = {
     name: "John",
     lastname: "Brown"
 

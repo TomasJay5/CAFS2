@@ -1,4 +1,4 @@
-let = userInfoOutput = document.getElementById(main);
+let userInfoOutput = document.getElementById("main");
 
 
 
@@ -8,7 +8,7 @@ let user = {
 
 };
 
-main.innerHTML = `<h2> User information</h2>
+userInfoOutput.innerHTML = `<h2> User information</h2>
 
 <p> User name is ${user.name}, User last name is ${user.lastname} </p>`;
 

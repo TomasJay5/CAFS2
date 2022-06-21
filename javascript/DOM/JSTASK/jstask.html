@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsTask</title>
+    <link rel="stylesheet" href="jstask.css">
+</head>
+
+<body>
+    <header>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="navbarfunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="photoslider">
+                <img id="mainPhoto">
+                <div class="mainSlider">
+                    <img src="https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21hbGx8ZW58MHx8MHx8&w=1000&q=80"
+                        style="display: none">
+                    <img src="https://media.istockphoto.com/photos/big-and-small-picture-id172759822?k=20&m=172759822&s=170667a&w=0&h=UcINA4UlwuaR4ESHDVS5GmCets8N97guXlFoNCPJh8s="
+                        style="display: none">
+                    <img src="https://media.gettyimages.com/photos/small-ball-out-balance-picture-id182825867?s=612x612"
+                        style="display: none">
+                </div>
+                </a>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p style="text-align:center ;" id="time"></p>
+            </div>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <form>
+                <div class="container">
+                    <label for="exampleInputEmail1" class="form-label"> Enter your email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="container">
+                    <label for="exampleInputPassword1" class="form-label"> Enter your question:</label>
+                    <textarea type="text" class="form-control" id="textarea"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div id="message"></div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="jstask.js"></script>
+</body>
+
+</html>

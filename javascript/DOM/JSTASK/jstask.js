@@ -1,7 +1,7 @@
 // https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 //Navbar
 function navbarfunction() {
-    var x = document.getElementById("myTopnav");
+    let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
@@ -10,12 +10,12 @@ function navbarfunction() {
 }
 
 //PhotoSlider
-var images = [];
+let images = [];
 
 images[0] = ["https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c21hbGx8ZW58MHx8MHx8&w=1000&q=80"];
 images[1] = ["https://media.istockphoto.com/photos/big-and-small-picture-id172759822?k=20&m=172759822&s=170667a&w=0&h=UcINA4UlwuaR4ESHDVS5GmCets8N97guXlFoNCPJh8s="];
 images[2] = ["https://media.gettyimages.com/photos/small-ball-out-balance-picture-id182825867?s=612x612"];
-var index = 0;
+let index = 0;
 
 function change() {
     document.getElementById("mainPhoto").src = images[index];
@@ -32,12 +32,12 @@ window.onload = change();
 
 //Clock
 
-var timeDisplay = document.getElementById("time");
+let timeDisplay = document.getElementById("time");
 
 
 function refreshTime() {
-    var dateString = new Date().toLocaleString("en-US", { timeZone: "Europe/Vilnius" });
-    var formattedString = dateString.replace(", ", " - ");
+    let dateString = new Date().toLocaleString("en-US", { timeZone: "Europe/Vilnius" });
+    let formattedString = dateString.replace(", ", " - ");
     timeDisplay.innerHTML = formattedString;
 }
 

@@ -6,7 +6,7 @@ class Movie {
       this.budget = budget;
       this.income = income;
 
-      this.getIntroduction = function() {
+        this.getIntroduction = function() {
         return `Movie: ${this.name}, Year: ${this.year}, Director: ${this.director}`};
       
         this.getProfit = function() {;

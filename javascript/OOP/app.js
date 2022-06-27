@@ -18,18 +18,18 @@
 // Testavimui, sukurkite du filmus, kurie turės nurodytas savybes ir metodus.
 
 
-let firstmovie = new Movie('Batman Begins',2005,'Christopher Nolan', 150000000,373700000);
+// let firstmovie = new Movie('Batman Begins',2005,'Christopher Nolan', 150000000,373700000);
 
-let secondmovie = new Movie('The Dark Knight',2008,'Christopher Nolan',185000000,1006000000000);
+// let secondmovie = new Movie('The Dark Knight',2008,'Christopher Nolan',185000000,1006000000000);
   
-console.log(firstmovie);
+// console.log(firstmovie);
 
-console.log(firstmovie.getIntroduction());
+// console.log(firstmovie.getIntroduction());
 
-console.log(firstmovie.getProfit());
+// console.log(firstmovie.getProfit());
 
-console.log(secondmovie);
+// console.log(secondmovie);
 
-console.log(secondmovie.getIntroduction());
+// console.log(secondmovie.getIntroduction());
 
-console.log(secondmovie.getProfit());
+// console.log(secondmovie.getProfit());

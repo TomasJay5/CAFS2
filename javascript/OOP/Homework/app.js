@@ -18,9 +18,9 @@
 
 // Testavimui, sukurkite du objektus, kurie turės nurodytas savybes ir metodus.
 
-const thiscar = new Car('Audi', 'A4', 2010);
+let thiscar = new Car('Audi', 'A4', 2010);
 
-const motorcycle = new Motorcycle('BMW', 'S1000', 2009, 2)
+let motorcycle = new Motorcycle('BMW', 'S1000', 2009, 2)
 
 console.log(thiscar.getIntroduction());
 

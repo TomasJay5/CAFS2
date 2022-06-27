@@ -10,8 +10,8 @@ class Car {
     }
 
     getAge() {
-        const date = new Date();
-        const year = date.getFullYear();
+        let date = new Date();
+        let year = date.getFullYear();
         return ((year - this.year) <= 10) ? '10 years or newer' : '11 years or older';
     }
 }

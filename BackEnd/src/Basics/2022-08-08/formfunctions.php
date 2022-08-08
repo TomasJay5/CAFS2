@@ -1,4 +1,5 @@
 <?php
+
 require('formdata.php');
 
 function citiesFunction($arr)

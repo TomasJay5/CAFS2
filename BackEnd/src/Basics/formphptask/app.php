@@ -1,8 +1,7 @@
 <?php
 
-require_once 'formfunctions.php';
-
-if (isset($_POST)) {
+require_once 'formfunctions.php'; 
+{
     $value = isset($_POST['languageCode']) ? $_POST['languageCode'] : '';
     if (!$value) {
         //https://stackoverflow.com/questions/8814472/how-to-make-an-html-back-link

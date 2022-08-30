@@ -1,14 +1,8 @@
 <?php
 
-if (isset($_POST)) {
-    $data = 'https://randomuser.me/api/?results=1';
-
-    $ch = curl_init($data);
-
-    $fp = fopen('./Client_data/clientdata.json', 'w');
-
-    curl_setopt($ch, CURLOPT_FILE, $fp);
-    curl_setopt($ch, CURLOPT_HEADER, 0);
-
-    curl_exec($ch);
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $json = json_decode(file_get_contents('php://input'), true);
+    $file = fopen('./Client_data/'. $json['results'][0]['name']['first'] . '.json', 'w');
+    fwrite($file, json_encode($_POST));
+    fclose($file);
 }

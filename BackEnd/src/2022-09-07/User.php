@@ -3,9 +3,9 @@
 class User
 {
 
-    public $firstname;
-    public $lastname;
-    public $age;
+    protected $firstname;
+    protected $lastname;
+    protected $age;
 
     public function __construct(string $firstname, string $lastname, int $age)
     {

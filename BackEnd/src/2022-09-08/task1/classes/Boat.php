@@ -1,21 +1,21 @@
 <?php
 
-// require_once __DIR__ . "/Vehicle.php";
+require_once __DIR__ . "/Vehicle.php";
 
-class Boat extends Vehicle 
+class Boat extends Vehicle
 {
-    public function getWheelsNumberText() : string
+    public function getWheelsNumberText(): string
     {
         return "Are you serious?";
     }
 
-    public function getType() : string
+    public function getType(): string
     {
         return "Cruiser";
     }
 
-    public function getFuelType() : array
+    public function getFuelType(): array
     {
-        return[2];
+        return [2];
     }
 }

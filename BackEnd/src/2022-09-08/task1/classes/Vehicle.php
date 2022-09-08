@@ -27,8 +27,7 @@ class Vehicle
 
     public function getAgeText(): string
     {
-        if($this->getAge() <= 10)
-        {
+        if ($this->getAge() <= 10) {
             return sprintf("10 years or newer");
         } else {
             return sprintf("11 years or older");
@@ -42,7 +41,7 @@ class Vehicle
 
     public function getWheelsNumbertext(): string
     {
-        return static::class . " " . "has {$this->getWheelsNumbertext()} wheels";
+        return static::class . " " . "has {$this->getWheelsNumber()} wheels";
     }
 
     public function getFuelType()
